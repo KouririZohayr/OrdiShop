@@ -1,0 +1,123 @@
+/* div.gallery {
+    position: relative;
+    border: 1px solid #ccc;
+    overflow: hidden;
+
+    
+  }
+ 
+div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+div.gallery img {
+    width: 100%;
+    height: 240px;
+    
+ 
+
+  }
+.responsive:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  }
+.gallery a img{
+    
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    }
+.gallery a img:hover  {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    }
+
+
+  
+div.desc {
+    padding: 15px;
+    text-align: center;
+    
+  }
+.p_responsive{
+    font-family: 'Red Hat Display';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 450px;
+    width: 18%;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+ 
+@media only screen and (max-width: 700px) {
+.responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+ 
+@media only screen and (max-width: 500px) {
+.responsive {
+      width: 100%;
+    }
+  }
+  
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+   */
+#global2{
+  width: 100%;
+  border: solid 1px black;
+  padding: 10px;
+  background-image: url("../img/20405431.jpg");
+  
+  
+}
+#zz{
+  display: flexbox;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+#zz p{
+  position: absolute;
+  bottom: 0;
+  font-family: 'Roboto';
+  color: white;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+
+}
+body{
+  background-color: rgb(236, 255, 196);
+}
+
+
+
+
+
+
+
+
