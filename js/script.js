@@ -2,7 +2,7 @@
 $(".owl-carousel").owlCarousel({ 
     autoplay: true,
     autoplayhoverpause:true,
-    autoplaytimeout:100,
+    autoplaytimeout:50,
     items:4,
     nav:true,
     loop:true,
