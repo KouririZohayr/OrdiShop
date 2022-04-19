@@ -1,4 +1,6 @@
-
+*{
+  box-sizing: border-box;  
+}
 *::after,
 *::before{
     box-sizing: border-box;
@@ -30,14 +32,21 @@ header{
     width: 90%;
     margin: auto;
 }
+#header_nav{
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
 
 .navbar{
-
-    box-shadow: 0px 5px 10px 0px #aaa;
+    box-shadow: 0px 5px 10px 0px rgb(235, 235, 235);
     position: fixed;
     top: 60px;
+    height: 60px;
+    
+    
     width: 100%;
-    background: #fff;
+    background: rgb(0, 0, 0);
     color: #000;
     opacity: 0.85;
     z-index: 100;
@@ -62,14 +71,26 @@ header{
 }
 .logo{
     order: 1;
-    font-size: 2.3rem;
+    font-size: 2rem;
+    color: rgb(230, 230, 230);
 }
+#icone a{
+color: #000;
+margin-left: 5px;
+
+}
+#icone{ 
+    margin-left: 15px;
+}
+
 #panair{
     position: absolute;
     right: 0;
+    margin-right:15px;
 }
 #panair a{
     color: #000;
+    margin-left: 5px;
 }
 
 .menu-items li{
@@ -79,10 +100,12 @@ header{
 }
 
 .navbar a{
-    color: #444;
+    color: rgb(230, 230, 230);
+    font-size: 15.4px;
     text-decoration: none;
-    font-weight: 500;
-    transition: color 0.3s ease-in-out;
+    font-weight: 600;
+    transition: color 0.2s ease-in-out;
+
 
 }
 
@@ -90,9 +113,41 @@ header{
     color: rgb(123, 27, 27);
     border-bottom:rgb(123, 27, 27) solid 1px ;
 }
+.navbar ul{
+    display: flex;
+    text-align: center;
+}
 
 
-@media (max-width: 768px){
+@media (max-width: 1024px){
+    .menu-items li{
+        list-style: none;
+        margin-bottom: 0.5rem;
+        font-size: 1rem;
+    }
+    .navbar a{
+        color: rgb(230, 230, 230);
+        font-size: 18px;
+
+        text-decoration: none;
+        font-weight: 400;
+        transition: color 0.2s ease-in-out;
+    
+    
+    }
+    #icone{ 
+        margin-left: 5px;
+
+    }
+    #icone a{ 
+        margin-left: 0.5px;
+        
+    }
+    #panair{
+        position: absolute;
+        right: 0;
+        margin-right:5px;
+    }
     .navbar{
         opacity: 0.95;
     }
@@ -138,7 +193,8 @@ header{
         height: 4px;
         width: 100%;
         border-radius: 10px;
-        background: #333;
+        background: rgb(230, 230, 230);
+        
     }
     
     .navbar-container .hamburger-lines .line1{
@@ -157,22 +213,23 @@ header{
 
     .navbar .menu-items{
         padding-top: 100px;
-        background: #fff;
-        height: 100vh;
-        max-width: 300px;
+        background: black;
+        width:300px;
         transform: translate(-150%);
         display: flex;
         flex-direction: column;
         margin-left: -40px;
         padding-left: 40px;
         transition: transform 0.5s ease-in-out;
-        box-shadow:  5px 0px 10px 0px #aaa;
-        overflow: scroll;
+        box-shadow:  5px 0px 10px 0px rgb(34, 34, 34);
+        
+        
+     
     }
 
     .navbar .menu-items li{
-        margin-bottom: 1.8rem;
-        font-size: 1.1rem;
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
         font-weight: 500;
     }
 
@@ -180,7 +237,7 @@ header{
         position: absolute;
         top: 10px;
         right: 15px;
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .navbar-container input[type="checkbox"]:checked ~ .menu-items{
@@ -205,4 +262,32 @@ header{
     .navbar-container input[type="checkbox"]:checked ~ .logo{
         display: none;
     }
+}
+/* section */
+section{
+   
+    display: flex;
+
+   scroll-snap-align: start;
+ 
+}
+.container_section{
+/*     scroll-snap-type: y mandatory; */
+position: relative;
+top: 140px;
+    scroll-snap-type: y proximity;
+    overflow-y: scroll; 
+    height: 100vh;
+}
+.one{
+    background-color: rgb(36,164,138);
+}
+.two{
+    background-color: rgb(211,79,79);
+}
+.three{
+    background-color: rgb(76,91,175);
+}
+.four{
+    background-color: lightsalmon;
 }

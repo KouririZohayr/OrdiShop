@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="..\css\bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class="section-header">	
+        <section class="header-main">
+            <div class="container mt-4">
+                <div class="row gy-3 align-items-center">
+                    <div class="col-lg-2 col-sm-4 col-4">
+                        <a href="http://bootstrap-ecommerce.com" class="navbar-brand">
+                            <!-- <img class="logo" height="40" src="images/logo.svg">
+                             -->
+                             <h1 class="logo">OrdiShop</h1>
+                        </a> <!-- brand end.// -->
+                    </div>
+                    <div class="order-lg-last col-lg-5 col-sm-8 col-8">
+                        <div class="float-end">
+                            <a href="#" class="btn btn-light"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                                  </svg>  <span class="ms-1 d-none d-sm-inline-block">S'identifier </span> 
+                            </a>
+                            <a href="#" class="btn btn-light"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                  </svg>  <span class="ms-1 d-none d-sm-inline-block">Favoris</span>   
+                            </a>
+                            <a data-bs-toggle="offcanvas" href="#offcanvas_cart" class="btn btn-light"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+                                    <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+                                  </svg> <span class="ms-1">cart </span> 
+                            </a>
+                        </div>
+                    </div> <!-- col end.// -->
+                    <div class="col-lg-5 col-md-12 col-12">
+                        <form action="#" class="">
+                          <div class="input-group">
+                            <input type="search" class="form-control" style="width:55%" placeholder="Search">
+                            <button class="btn btn-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                                  </svg>
+                            </button>
+                          </div> <!-- input-group end.// -->
+                        </form>
+                    </div> <!-- col end.// -->
+                    
+                </div> <!-- row end.// -->
+            </div> <!-- container end.// -->
+        </section> <!-- header-main end.// -->
+    
+        <nav class="navbar navbar-light bg-white border-top navbar-expand-lg">
+            <div class="container">
+                <button class="navbar-toggler border collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar_main" aria-expanded="false">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="navbar-collapse collapse" id="navbar_main" >
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link ps-0" href="index1.html"> Home </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Nos ordinateur</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Nos coffrents</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Nos fournisseurs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-danger" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Qis sommes-nous</a>
+                        </li>
+                        
+                    </ul>
+                </div> <!-- collapse end.// -->
+            </div> <!-- container end.// -->
+        </nav> <!-- navbar end.// -->
+    </header> <!-- section-header end.// -->
+    <section class="section-intro bg-danger padding-y-lg mb-5" style="height: 500px;display: flex; align-items: center;" >
+        <div class="container p-3">
+    
+          <article class=" my-5 ">
+            <h1 class="display-4 text-white">La régulation européenne du numérique </h1>
+            <p class="lead text-white">Depuis décembre 2020, l’Union européenne (UE) entend réguler les plateformes 
+                numériques avec deux règlements : le Digital Services Act (DSA) et le Digital Markets Act (DMA). Ensemble, ils sont censés mettre fin à l’irresponsabilité des géants du numérique. </p>
+            <a href="#" class="btn btn-dark">Continuer la lecture...</a> 
+            </div>
+          </article>
+        </section>
+          <article class="container mt-3">
+          <div class="row mb-2">
+            <div class="col-md-6">
+              <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                <div class="card-body d-flex flex-column align-items-start">
+                  <strong class="d-inline-block mb-2 text-primary">World</strong>
+                  <h3 class="mb-0">
+                    <a class="text-dark" href="#">Les cryptomonnaies</a>
+                  </h3>
+                  <div class="mb-1 text-muted">avril 12</div>
+                  <p class="card-text mb-auto">15 800 milliards de dollars. 
+                      Ce montant représente l’ensemble des transactions de cryptomonnaies effectuées en 2021. 
+                     </p>
+                  <a href="#">Continuer la lecture...</a>
+                </div>
+                <img class="card-img-right flex-auto d-none d-md-block"  style="width: 200px; height: 250px;" src="..\img\Cryptomonnaie.jpg" >
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                <div class="card-body d-flex flex-column align-items-start">
+                  <strong class="d-inline-block mb-2 text-success">Design</strong>
+                  <h3 class="mb-0">
+                    <a class="text-dark" href="#">Les NFT</a>
+                  </h3>
+                  <div class="mb-1 text-muted">avril 11</div>
+                  <p class="card-text mb-auto">Début 2021, les jetons non fongibles (NFT) étaient inconnus de la plupart des gens. 
+                      À la fin de l’année, 40 milliards de dollars ont été dépensés dans ces objets numériques. </p>
+                  <a href="#">Continuer la lecture...</a>
+                </div>
+                <img class="card-img-right flex-auto d-none d-md-block"   style="width: 200px; height: 250px;" src="..\img\NFT.jpg" data-holder-rendered="true">
+              </div>
+            </div>
+          </div>
+    
+        </div> <!-- container end.// -->
+    </article>
+    <article class="container mt-3 "> 
+        <div class="row">
+            <div class="col-lg-8 col-md-12">
+            <div class="border-bottom border-bottom-2 mb-5 ">
+               <h3 class="mt-2 text-danger ">
+                Ces 13 grandes tendances tech et numériques à suivre en 2022
+               </h3>
+            </div>
+            <div>
+                <p class="h4">Kim Kardashian et d’autres célébrités poursuivies pour la promotion trompeuse d’une cryptomonnaie</p>
+                <div class="mb-1 text-muted">12 janvier 2022 Par <a href=""> Kesso Diallo</a></div>
+                <p class="h5 mt-2">Elles sont accusées d’avoir fait la publicité pour la cryptomonnaie EthereumMax liée à une escroquerie.</p>
+                <p class="text">Des investisseurs induits en erreur par des influenceurs. Le 7 janvier, une plainte a été déposée par un résident de New 
+                  York auprès d’un tribunal californien. Il accuse Kim Kardashian, le boxeur Floyd Mayweather, ainsi que d’autres personnalités d’avoir fait 
+                  « des déclarations fausses ou trompeuses aux investisseurs au sujet d’EthereumMax par le biais de publicités sur les réseaux sociaux et d’autres activités promotionnelles ». 
+                  Les dirigeants de l’entreprise font aussi partie des inculpés.</p>
+                  <p class="text mt-1">D’après la plainte, plusieurs personnes ont perdu de l’argent après avoir été incité à acheter des jetons EMAX entre le 14 mai et 27 juin 2021. 
+                    Au cours de cette période, Kim Kardashian a publié un message sponsorisé sur Instagram, 
+                    où elle est suivie par 278 millions d’abonnés. Floyd Mayweather avait fait la promotion de la cryptomonnaie 
+                    lors du combat très attendu contre le youtubeur Logan Paul le 6 juin dernier. Quelques jours avant, 
+                    EthereumMax avait d’ailleurs annoncé qu’il était possible d’acheter des billets en ligne avec ses jetons pour le 
+                    fameux événement.</p>
+            </div>
+            <div class="mt-2">
+              <p class="h3">Des technologies de « purification »</p>
+              <div class="mb-1 text-muted">25 janvier 2022 Par <a href="https://www.blogdumoderateur.com/tendances-tech-2022/" target="_blank"> Estelle Raffin </a></div>
+              <p class="text">Une nouvelle vague d’innovations technologiques utilise la biotechnologie pour purifier les espaces aériens.
+                 À mesure que cette technologie se développe, 
+                ses fonctionnalités sont testées dans des espaces publics, dans le but d’atténuer les effets de la pollution atmosphérique. L’attention accrue portée à la qualité de l’air ouvre la voie à de nouvelles technologies et à de nouveaux dispositifs,
+                 permettant de respirer proprement dans les espaces publics.</p>
+              <p class="h3 mt-2">La cryptomonnaie comme monnaie légitime</p>
+              <p class="text">Les cryptomonnaies ont connu leurs « up and down », 
+                   mais les récentes initiatives d’acteurs financiers et politiques 
+                   majeurs pourraient permettre à cette monnaie numérique de devenir 
+                   une option de paiement légitime et accessible. Plusieurs pays expérimentent 
+                   des cryptomonnaies réglementées au niveau national. La Chine pilote actuellement un 
+                   yuan numérique, et prévoit de déployer à terme cette monnaie électronique pour une 
+                   utilisation publique massive. Le wild west des cryptomonnaies est lentement réglementé et légitimé, 
+                   ouvrant la porte à un avenir d’économies numériques.</p>
+              <p class="h3 mt-2 ">La téléportation virtuelle</p>
+              <p class="text">La distance devient un obstacle de moins en moins important. 
+                Alors que les gens passent davantage de temps à travailler, à socialiser et à 
+                collaborer en ligne, la technologie ouvre la voie à la téléportation dans 
+                une nouvelle dimension virtuelle qui offre des interactions en personne plus 
+                intimes et plus proches de la réalité. On peut prendre l’exemple de Meta qui 
+                mise beaucoup sur la réalité virtuelle (VR) :  « D’ici 2030, les nouvelles 
+                générations d’Oculus permettront aux utilisateurs de se téléporter d’un endroit à un 
+                autre sans bouger de leur canapé », a déclaré Mark Zuckerberg au podcast 411 de The Information. 
+                De son côté, la plateforme de collaboration Microsoft Mesh utilise la réalité mixte (RM) pour créer des 
+                mondes interconnectés où le physique et le numérique se rejoignent.</p>
+            </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+              <div class="card">
+                <img class="card-img-top" src="..\img\whatsapp-video-fonction.jpg" alt="">
+                <div class="card-body">
+                  <div class="text-muted">LE 05/04/2022</div>
+                  <h5 class="card-title">WhatsApp : attention, une attaque phishing vole toutes vos données personnelles</h5>
+                  <p class="card-text">Des pirates se font passer pour WhatsApp. Dans le cadre d'une vaste campagne de phishing, des hackers font croire aux utilisateurs de la messagerie qu'ils ont reçu un message vocal. Il s'agit d'un piège visant à voler toutes vos données. </p>
+                </div>
+            </div>
+        </div>
+
+    </article>
+    <!-- footer -->
+    <footer class="section-footer bg-danger text-white mt-5 pt-5 pb-5">
+      <div class="container">
+        <section class="footer-main padding-y">
+          <div class="row">
+            <aside class="col-12 col-sm-12 col-lg-3">
+              <article class="me-lg-4">
+                <h1 class="logo-footer">OrdiShop</h1>
+                <!-- <img src="images/logo.png" class="logo-footer"> -->
+                <p class="mt-3"> © 2021- 2022 , <br> Tous droits réservés. </p>
+              </article>
+            </aside>
+            <aside class="col-6 col-sm-4 col-lg-2">
+              <h6 class="title">Store</h6>
+              <ul class="list-menu mb-4">
+                <li> <a href="#">About us</a></li>
+                <li> <a href="#">Find store</a></li>
+                <li> <a href="#">Categories</a></li>
+                <li> <a href="#">Blogs</a></li>
+              </ul>
+            </aside>
+            <aside class="col-6 col-sm-4 col-lg-2">
+              <h6 class="title">Information</h6>
+              <ul class="list-menu mb-4">
+                <li> <a href="#">Help center</a></li>
+                <li> <a href="#">Money refund</a></li>
+                <li> <a href="#">Shipping info</a></li>
+                <li> <a href="#">Refunds</a></li>
+              </ul>
+            </aside>
+            <aside class="col-6 col-sm-4  col-lg-2">
+              <h6 class="title">Support</h6>
+              <ul class="list-menu mb-4">
+                <li> <a href="#"> Help center </a></li>
+                <li> <a href="#"> Documents </a></li>
+                <li> <a href="#"> Account restore </a></li>
+                <li> <a href="#"> My Orders </a></li>
+              </ul>
+            </aside>
+            <aside class="col-12 col-sm-12 col-lg-3">
+              <h6 class="title">Newsletter</h6>
+              <p>Stay in touch with latest updates about our products and offers </p>
+      
+              
+                
+              </form>
+            </aside>
+          </div> <!-- row.// -->
+        </section>  <!-- footer-top.// -->
+      
+        <section  class="footer-bottom d-flex justify-content-lg-between border-top" >
+          
+          <nav class="dropup">
+              <button class="dropdown-toggle btn d-flex align-items-center py-0" type="button" data-bs-toggle="dropdown">
+                <img src="images/flags/flag-usa.png" class="me-2" height="20"> 
+                <span>Francais</span>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="#">Arabic</a></li>
+              </ul>
+          </nav>
+          
+        </section>
+      </div> <!-- container end.// -->
+      </footer>
+      <!-- footer end -->
+
+</body>
+</html>
