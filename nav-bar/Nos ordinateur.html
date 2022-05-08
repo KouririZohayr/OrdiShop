@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="..\css\bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/script.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -89,6 +90,7 @@
             </div> <!-- container end.// -->
         </nav> <!-- navbar end.// -->
     </header> <!-- section-header end.// -->
+
     <section class="padding-y">
         <div class="container">
         
@@ -102,15 +104,15 @@
         
           <article class="filter-group">
             <header class="card-header">
-              <a href="#" class="title" data-bs-toggle="collapse" data-bs-target="#collapse_aside1" aria-expanded="true">
-                <i class="icon-control fa fa-chevron-down"></i>   Related items 
+              <a href="#" class="title" data-bs-toggle="collapse" data-bs-target="#collapse_aside1" aria-expanded="true" style="text-decoration:none;">
+                <i class="icon-control fa fa-chevron-down"></i>   Articles connexes
               </a>
             </header>
-            <div class="collapse show" id="collapse_aside1" style="">
+            <div class="collapse show" id="collapse_aside1" >
               <div class="card-body">
-                <ul class="list-menu">
+                <ul class="list-menu" style=" list-style: none;">
                   <li><a href="#">Ordinateur Portable </a></li>
-                  <li><a href="#">Ordinateur Bureau/a></li>
+                  <li><a href="#">Ordinateur Bureau</li>
                   <li><a href="#">Mini Pc</a></li>
                   <li><a href="#">Accessories </a></li>
                   <li><a href="#">Carte Graphique</a></li>
@@ -119,11 +121,13 @@
               </div> <!-- card-body.// -->
             </div> <!-- collapse.// -->
           </article> <!-- filter-group // -->
+
+          
         
           <article class="filter-group">
             <header class="card-header">
-              <a href="#" class="title" data-bs-toggle="collapse" data-bs-target="#collapse_aside_brands" aria-expanded="true">
-                <i class="icon-control fa fa-chevron-down"></i>  Brands 
+              <a href="#" class="title" data-bs-toggle="collapse" data-bs-target="#collapse_aside_brands" aria-expanded="true" style="text-decoration:none;">
+                <i class="icon-control fa fa-chevron-down"></i>  Marque 
               </a>
             </header>
             <div class="collapse show" id="collapse_aside_brands" >
@@ -182,10 +186,114 @@
               </div> <!-- card-body .// -->
             </div> <!-- collapse.// -->
           </article>
-        
+
           <article class="filter-group">
             <header class="card-header">
-              <a href="#" class="title" data-bs-toggle="collapse" data-bs-target="#collapse_aside2" aria-expanded="true">
+              <a href="#" class="title" data-bs-toggle="collapse" data-bs-target="#collapse_aside_brands" aria-expanded="true" style="text-decoration:none;">
+                <i class="icon-control fa fa-chevron-down"></i>  Type de processeur 
+              </a>
+            </header>
+            <div class="collapse show" id="collapse_aside_brands" >
+              <div class="card-body">
+                  <label class="form-check mb-2">
+                    <input class="form-check-input" type="checkbox" value="" checked="">
+                    <span class="form-check-label"> AMD Athlon </span>
+                  </label> <!-- form-check end.// -->
+        
+                  <label class="form-check mb-2">
+                    <input class="form-check-input" type="checkbox" value="" checked="">
+                    <span class="form-check-label"> AMD Ryzen 5 </span>
+                  </label> <!-- form-check end.// -->
+        
+                  <label class="form-check mb-2">
+                    <input class="form-check-input" type="checkbox" value="" checked="">
+                    <span class="form-check-label"> AMD Ryzen 7 </span>
+                  </label> <!-- form-check end.// -->
+        
+                  <label class="form-check mb-2">
+                    <input class="form-check-input" type="checkbox" value="" checked="">
+                    <span class="form-check-label"> Intel Celeron </span>
+                  </label> <!-- form-check end.// -->
+        
+                  <label class="form-check mb-2">
+                    <input class="form-check-input" type="checkbox" value="">
+                    <span class="form-check-label"> Intel Atom </span>
+                  </label> <!-- form-check end.// -->
+        
+                  <label class="form-check mb-2">
+                    <input class="form-check-input" type="checkbox" value="">
+                    <span class="form-check-label"> Intel Core i5 </span>
+                    <b class="badge rounded-pill bg-gray-dark float-end">30</b>
+
+                    
+                  </label> <!-- form-check end.// -->
+                  <label class="form-check mb-2">
+                    <input class="form-check-input" type="checkbox" value="">
+                    <span class="form-check-label"> Intel Core i7 </span>
+                    <b class="badge rounded-pill bg-gray-dark float-end">30</b>
+                  </label> <!-- form-check end.// -->
+
+                  <label class="form-check mb-2">
+                    <input class="form-check-input" type="checkbox" value="">
+                    <span class="form-check-label"> Intel Core i9 </span>
+                  </label> <!-- form-check end.// -->
+                  <label class="form-check mb-2">
+                    <input class="form-check-input" type="checkbox" value="">
+                    <span class="form-check-label"> Intel Pentium </span>
+                  </label> <!-- form-check end.// -->
+                  <label class="form-check mb-2">
+                    <input class="form-check-input" type="checkbox" value="">
+                    <span class="form-check-label"> Intel Xeon </span>
+                  </label> <!-- form-check end.// -->
+              </div> <!-- card-body .// -->
+            </div> <!-- collapse.// -->
+          </article>
+          <article class="filter-group">
+            <header class="card-header">
+              <a href="#" class="title" data-bs-toggle="collapse" data-bs-target="#collapse_aside_brands" aria-expanded="true" style="text-decoration:none;">
+                <i class="icon-control fa fa-chevron-down"></i>Capacité de la RAM 
+              </a>
+            </header>
+            <div class="collapse show" id="collapse_aside_brands" >
+              <div class="card-body">
+                  <label class="form-check mb-2">
+                    <input class="form-check-input" type="checkbox" value="" checked="">
+                    <span class="form-check-label"> 2 GO </span>
+                  </label> <!-- form-check end.// -->
+        
+                  <label class="form-check mb-2">
+                    <input class="form-check-input" type="checkbox" value="" checked="">
+                    <span class="form-check-label">4 GO </span>
+                  </label> <!-- form-check end.// -->
+        
+                  <label class="form-check mb-2">
+                    <input class="form-check-input" type="checkbox" value="" checked="">
+                    <span class="form-check-label"> 8 GO </span>
+                  </label> <!-- form-check end.// -->
+        
+                  <label class="form-check mb-2">
+                    <input class="form-check-input" type="checkbox" value="" checked="">
+                    <span class="form-check-label"> 16 GO </span>
+                  </label> <!-- form-check end.// -->
+        
+                  <label class="form-check mb-2">
+                    <input class="form-check-input" type="checkbox" value="">
+                    <span class="form-check-label"> 32 GO </span>
+                  </label> <!-- form-check end.// -->
+        
+                  <label class="form-check mb-2">
+                    <input class="form-check-input" type="checkbox" value="">
+                    <span class="form-check-label"> 64 GO </span>
+                    <b class="badge rounded-pill bg-gray-dark float-end">30</b>                    
+                  </label> <!-- form-check end.// -->
+              </div> <!-- card-body .// -->
+            </div> <!-- collapse.// -->
+          </article>
+        
+
+          <article class="filter-group">
+            <header class="card-header">
+              <a href="#" class="title" data-bs-toggle="collapse" data-bs-target="#collapse_aside2" aria-expanded="true" style="text-decoration:none;">
                 <i class="icon-control fa fa-chevron-down"></i>  Price 
               </a>
             </header>
@@ -210,7 +318,7 @@
         
           <article class="filter-group">
             <header class="card-header">
-              <a href="#" class="title" data-bs-toggle="collapse" data-bs-target="#collapse_aside3" aria-expanded="true">
+              <a href="#" class="title" data-bs-toggle="collapse" data-bs-target="#collapse_aside3" aria-expanded="true" style="text-decoration:none;">
                 <i class="icon-control fa fa-chevron-down"></i>  Size 
               </a>
             </header>
@@ -261,8 +369,8 @@
         
             <!-- ========= content items ========= -->
             <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                  <figure class="card card-product-grid">
+                <div class="col-lg-4 col-md-6 col-sm-6" >
+                  <figure class="card card-product-grid ">
                     <div class="img-wrap"> 
                       <img class="card-img-top" src="../img/71guoY+nr7L._AC_SX679_.jpg"  > 
                     </div>
