@@ -168,10 +168,15 @@ footer a:hover{
 }
 .list-menu a {
     text-decoration: none;
-    color: rgb(149, 149, 149);
+    color: rgb(246, 246, 246);
 }
 .list-menu a:hover {
     text-decoration: none;
     color: rgb(111, 158, 239);
     
+}
+.filter-group a{
+    text-decoration: none;
+    color: rgb(0, 0, 0); 
+    margin-top: 5px;
 }
