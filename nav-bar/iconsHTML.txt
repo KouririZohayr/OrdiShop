@@ -1,0 +1,9 @@
+<i class="fa-brands fa-google"></i>
+<i class="fa-brands fa-facebook"></i>
+<i class="fa-brands fa-facebook-square"></i>
+<i class="fa-brands fa-instagram"></i>
+<i class="fa-brands fa-instagram-square"></i>
+<i class="fa-brands fa-linkedin"></i>
+<i class="fa-brands fa-twitter"></i>
+<i class="fa-brands fa-cc-paypal"></i>
+<i class="fa-brands fa-cc-visa"></i>
