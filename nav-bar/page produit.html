@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="..\css\bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+
+</head>
+<script></script>
+<body>
+    <header class="section-header">	
+        <section class="header-main">
+            <div class="container mt-4">
+                <div class="row gy-3 align-items-center">
+                    <div class="col-lg-2 col-sm-4 col-4">
+                        <a href="http://bootstrap-ecommerce.com" class="navbar-brand">
+                            <!-- <img class="logo" height="40" src="images/logo.svg">
+                             -->
+                             <h1 class="logo">OrdiShop</h1>
+                        </a> <!-- brand end.// -->
+                    </div>
+                    <div class="order-lg-last col-lg-5 col-sm-8 col-8">
+                        <div class="float-end">
+                            <a href="se conecter.html" class="btn btn-light"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                                  </svg>  <span class="ms-1 d-none d-sm-inline-block">S'identifier </span> 
+                            </a>
+                            <a href="#" class="btn btn-light"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                  </svg>  <span class="ms-1 d-none d-sm-inline-block">Favoris</span>   
+                            </a>
+                            <a data-bs-toggle="offcanvas" href="#offcanvas_cart" class="btn btn-light"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+                                    <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+                                  </svg> <span class="ms-1">cart </span> 
+                            </a>
+                        </div>
+                    </div> <!-- col end.// -->
+                    <div class="col-lg-5 col-md-12 col-12">
+                        <form action="#" class="">
+                          <div class="input-group">
+                            <input type="search" class="form-control mb-1" style="width:55%" placeholder="Search">
+                            <button class="btn btn-primary mb-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                                  </svg>
+                            </button>
+                          </div> <!-- input-group end.// -->
+                        </form>
+                    </div> <!-- col end.// -->
+                    
+                </div> <!-- row end.// -->
+            </div> <!-- container end.// -->
+        </section> <!-- header-main end.// -->
+    
+        <nav class="navbar navbar-light bg-white border-top navbar-expand-lg">
+            <div class="container">
+                <button class="navbar-toggler border collapsed mt-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar_main" aria-expanded="false">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="navbar-collapse collapse" id="navbar_main" >
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link ps-0" href="index1.html"> Home </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  text-danger" href="Nos ordinateur.html">Nos ordinateur</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#" >Nos coffrents</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Nos fournisseurs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Qis sommes-nous</a>
+                        </li>
+                    </ul>
+                </div> <!-- collapse end.// -->
+            </div> <!-- container end.// -->
+        </nav> <!-- navbar end.// -->
+    </header> <!-- section-header end.// -->
+
+    <section class="padding-y mt-5 mb-5">
+      <div class="container">
+      
+      <div class="row">
+      <aside class="col-lg-6">
+        <article class="gallery-wrap"> 
+          <div class="img-big-wrap img-thumbnail">
+             <a data-fslightbox="mygalley" data-type="image" href="images/items/detail1/big.jpg"> 
+                <img  style="max-width:445px ;" src="../img/61ann984KYS._AC_SL1500_.jpg"> 
+             </a>
+          </div> <!-- img-big-wrap.// -->
+          <div class="thumbs-wrap mt-3 mb-3 ">
+            <a data-fslightbox="mygalley" data-type="image" href="../img/71r93Cr+uES._AC_SL1500_.jpg" class="item-thumb "> 
+              <img class="me-3" width="60" height="60" src="../img/71r93Cr+uES._AC_SL1500_.jpg"> 
+            </a>
+            <a data-fslightbox="mygalley" data-type="image" href="images/items/detail1/big2.jpg" class="item-thumb"> 
+              <img class="me-3" width="60" height="60" src="../img/71AEMv7omNS._AC_SL1500_.jpg">  
+            </a>
+            <a data-fslightbox="mygalley" data-type="image" href="images/items/detail1/big3.jpg" class="item-thumb"> 
+              <img class="me-3" width="60" height="60" src="../img/514ZldK-YcS._AC_SL1500_.jpg">  
+            </a>
+            <a data-fslightbox="mygalley" data-type="image" href="images/items/detail1/big4.jpg" class="item-thumb"> 
+              <img class="me-3" width="60" height="60" src="../img/51HY2wF8q3S._AC_SL1500_.jpg">  
+            </a>
+            <a data-fslightbox="mygalley" data-type="image" href="images/items/detail1/big.jpg" class="item-thumb"> 
+              <img class="me-3" width="60" height="60" src="../img/61ann984KYS._AC_SL1500_.jpg">  
+            </a>
+          </div> <!-- thumbs-wrap.// -->
+        </article> <!-- gallery-wrap .end// -->
+      </aside>
+      <main class="col-lg-6">
+        <article class="ps-lg-3">
+          <h4 class="title text-dark">Lenovo IdeaPad Gaming 3 15ACH6 Ordinateur Portable 15.6'' FHD Noir (AMD Ryzen 5 5600H, RAM 16Go, SSD 512Go,
+             NVIDIA GeForce RTX 3050Ti, Windows 10) - Clavier AZERTY rétroéclairé </h4>
+          <div class="rating-wrap my-3">
+            <ul class="rating-stars">
+              <li style="width:80%" class="stars-active"> <img src="../img/stars-active.svg" alt=""> </li>
+<!--               <li> <img src="../img/starts-disable.svg" alt=""> </li> -->
+            </ul>
+            <b class="label-rating text-warning"> 4.5</b>
+            <i class="dot"></i>
+            <span class="label-rating text-muted"> <i class="fa fa-shopping-basket"></i> 154 orders </span>
+            <i class="dot"></i>
+            <span class="label-rating text-success">En stock</span>
+          </div> <!-- rating-wrap.// -->
+      
+          <div class="mb-3"> 
+            <var class="price h5">$750.00</var> 
+            <span class="text-muted">avec emballages</span> 
+          </div> 
+      
+          <p>Nous ne savons pas quand cet article sera de nouveau approvisionné ni s'il le sera.</p>
+      
+          <dl class="row">
+            <dt class="col-3">Marque:</dt>
+            <dd class="col-9">Lenovo</dd>
+      
+            <dt class="col-3">séries</dt>
+            <dd class="col-9">Ideapad Gaming 3 1ACH6</dd>
+      
+            <dt class="col-3">Taille de l'écran</dt>
+            <dd class="col-9">15.6 Pouces </dd>
+      
+            <dt class="col-3">Couleur</dt>
+            <dd class="col-9">Noir</dd>
+
+            <dt class="col-3">Modèl CPU</dt>
+            <dd class="col-9">Ryzen 5</dd>
+
+            <dt class="col-3">Taille de la mémoire RAM installée</dt>
+            <dd class="col-9">16 GB</dd>
+            
+            <dt class="col-3">Système d'exploitation</dt>
+            <dd class="col-9">Windows 10 Home</dd>
+          </dl>
+      
+          <hr>
+      
+          <div class="row mb-4">
+            <div class="col-md-4 col-6 mb-2">
+              <label class="form-label">Style</label>
+              <select class="form-select">
+                <option>15.6",reyzen 5 5600h,RAM 16Go,ssd512Gb</option>
+                <option>15.6",Core i5,RAM 16Go,ssd512Gb,GTX1650</option>
+                <option>15.6",reyzen 7 5600h,RAM 16Go,ssd512Gb,GTX1650Ti</option>
+                <option>15.6",reyzen 5 5600h,RAM 16Go,ssd512Gb</option>
+              </select>
+            </div> <!-- col.// -->
+            <div class="col-md-4 col-6 mb-3">
+              <label class="form-label d-block">Quantité</label>
+              <div class="input-group input-spinner">
+                <button class="btn btn-icon btn-light border" type="button"> 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#999" viewBox="0 0 24 24">
+                      <path d="M19 13H5v-2h14v2z"></path>
+                    </svg>
+                </button>
+                <input class="form-control text-center" placeholder="" value="14">
+                <button class="btn btn-icon btn-light border   " type="button"> 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#999" viewBox="0 0 24 24">
+                      <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"></path>
+                    </svg>
+                </button>
+              </div> <!-- input-group.// -->
+            </div> <!-- col.// -->
+          </div> <!-- row.// -->
+      
+          <a href="#" class="btn  btn-warning"> Acheter maintenant </a>
+          <a href="#" class="btn  btn-primary"> <i class="me-1 fa fa-shopping-basket"></i> Ajouter au panier </a>
+          <a href="#" class="btn  btn-light"> <i class="me-1 fa fa-heart"></i>  </a>
+        
+        </article> <!-- product-info-aside .// -->
+      </main> <!-- col.// -->
+      </div> <!-- row.// -->
+      
+      </div> <!-- container .//  -->
+      </section>
+      <section class="padding-y bg-light border-top ">
+        <div class="container mt-5">
+        <div class="row">
+          <div class="col-lg-8">
+        <!-- =================== COMPONENT SPECS ====================== -->
+        <div class="card ">
+          <header class="card-header">
+            <ul class="nav nav-tabs card-header-tabs">
+              <li class="nav-item">
+                <a href="#" data-bs-target="#tab_specs" data-bs-toggle="tab" class="nav-link active">Specification</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" data-bs-target="#tab_warranty" data-bs-toggle="tab" class="nav-link">Politique de retour</a>
+              </li>
+            </ul>
+          </header>
+          <div class="tab-content">
+            <article id="tab_specs" class="tab-pane show active card-body">
+              <p>Boostez votre expérience d’e-sport et écrasez les noobs grâce à un ordinateur portable qui vous
+                 permettra de grimper au sommet du classement. L’IdeaPad Gaming 3 (15") vous donne accès aux compétitions 
+                 de gaming grâce à ses options de processeurs AMD Ryzen, de cartes graphiques GeForce, de mémoire DDR4 et de 
+                 stockage SSD. Et avec sa finition extérieure noir réfracte la lumière et un écran Full HD pouvant atteindre 
+                 120 Hz, il est visuellement superbe, allumé comme éteint. L'avantage ce pose aussi a clavier auto-éclairé en couleure blanche lorsque le travail 
+                sur l'IdeaPad doit être effectué à n'importe quel moment de la journée</p>
+                <h5>Descriptif technique</h5>
+              <table class="table border table-hover">
+                <tbody><tr>
+                  <th>  Affichage: </th> <td> 15.6" FHD (1920x1080) IPS 250nits Anti-éblouissement </td>
+                </tr>
+                <tr>
+                  <th>  Processor: </th> <td> 2.3GHz Ryzen 5 5600H </td>
+                </tr>
+                <tr>
+                  <th>  Camera quality: </th> <td>720p FaceTime HD camera  </td>
+                </tr>
+                <tr>
+                  <th>  Memory </th> <td> 8 GB RAM or 16 GB RAM </td>
+                </tr>
+                <tr>
+                  <th>  Graphics </th> <td> Intel Iris Plus Graphics 640 </td>
+                </tr>
+              </tbody></table>
+          </article> <!-- tab-content.// -->
+          <article id="tab_warranty" class="tab-pane card-body">
+            Politique de retour Amazon.fr:Si vous n’êtes pas satisfait d'un produit que vous avez commandé auprès 
+            d'Amazon.fr ou si celui-ci est défectueux ou endommagé, vous pouvez nous le retourner sous 30 jours suivant la
+             date de livraison, et nous vous rembourserons ou remplacerons l'intégralité de l'article. Pour plus d’informations,
+              veuillez consulter notre page en savoir plus sur les Retours et remboursements. Si un défaut apparaissait sur votre
+               produit passé la période de 30 jours, et durant toute la période de garantie, vous pouvez nous contacter pour les 
+               produits vendus par Amazon ou vendus par un vendeur tiers et expédiés par Amazon, ou contacter le vendeur 
+               tiers pour les produits vendus et expédiés par un vendeur tiers. Veuillez noter que si vous avez acheté 
+               un article sur la Marketplace vendu et expédié par un vendeur tiers, cet article est soumis à la politique
+                individuelle de retour de ce vendeur (en savoir plus sur les retours Marketplace).
+          </article>
+          
+          </div>
+        </div>
+        <!-- =================== COMPONENT SPECS .// ================== -->   
+          </div> <!-- col.// -->
+          <aside class="col-lg-4">
+        <!-- =================== COMPONENT ADDINGS ====================== -->
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Similar items</h5>
+                 
+                <article class="itemside mb-3">
+                  <a href="#" class="aside">
+                    <img src="images/items/8.jpg" width="96" height="96" class="img-md img-thumbnail">
+                  </a>
+                  <div class="info">
+                    <a href="#" class="title mb-1"> Rucksack Backpack Large <br> Line Mounts </a>
+                    <strong class="price"> $38.90</strong> <!-- price.// -->
+                  </div>
+                </article>
+        
+                <article class="itemside mb-3">
+                  <a href="#" class="aside">
+                    <img src="images/items/9.jpg" width="96" height="96" class="img-md img-thumbnail">
+                  </a>
+                  <div class="info">
+                    <a href="#" class="title mb-1"> Summer New Men's Denim <br> Jeans Shorts  </a>
+                    <strong class="price"> $29.50</strong> <!-- price.// -->
+                  </div>
+                </article>
+        
+                <article class="itemside mb-3">
+                  <a href="#" class="aside">
+                    <img src="images/items/10.jpg" width="96" height="96" class="img-md img-thumbnail">
+                  </a>
+                  <div class="info">
+                    <a href="#" class="title mb-1"> T-shirts with multiple colors, for men and lady </a>
+                    <strong class="price"> $120.00</strong> <!-- price.// -->
+                  </div>
+                </article>
+        
+                <article class="itemside mb-3">
+                  <a href="#" class="aside">
+                    <img src="images/items/11.jpg" width="96" height="96" class="img-md img-thumbnail">
+                  </a>
+                  <div class="info">
+                    <a href="#" class="title mb-1"> Blazer Suit Dress Jacket for Men, Blue color </a>
+                    <strong class="price"> $339.90</strong> <!-- price.// -->
+                  </div>
+                </article>
+        
+              </div> <!-- card-body .// -->
+            </div> <!-- card .// -->
+        <!-- =================== COMPONENT ADDINGS .// ================== --> 
+          </aside> <!-- col.// -->
+        </div>
+        
+        <br><br>
+        
+        </div><!-- container // -->
+        </section>
+
+
+
+
+
+
+
+    
+    <footer class="section-footer bg-primary text-white  pt-5 pb-5">
+        <div class="container">
+          <section class="footer-main padding-y">
+            <div class="row">
+              <aside class="col-12 col-sm-12 col-lg-3">
+                <article class="me-lg-4">
+                  <h1 class="logo-footer">OrdiShop</h1>
+                  <!-- <img src="images/logo.png" class="logo-footer"> -->
+                  <p class="mt-3"> © 2021- 2022 , <br> Tous droits réservés. </p>
+                </article>
+              </aside>
+              <aside class="col-6 col-sm-4 col-lg-2">
+                <h6 class="title">Magasin</h6>
+                <ul class="list-menu mb-4">
+                  <li> <a href="#">À propos de nous</a></li>
+                  <li> <a href="#">Trouver un magasin</a></li>
+                  <li> <a href="#">Catégories</a></li>
+                  <li> <a href="#">Blogs</a></li>
+                </ul>
+              </aside>
+              <aside class="col-6 col-sm-4 col-lg-2">
+                <h6 class="title">Information</h6>
+                <ul class="list-menu mb-4">
+                  <li> <a href="#">Centre d'aide</a></li>
+                  <li> <a href="#">Remboursement d'argent</a></li>
+                  <li> <a href="#">Informations d'expédition</a></li>
+                  <li> <a href="#">Remboursements</a></li>
+                </ul>
+              </aside>
+              <aside class="col-6 col-sm-4  col-lg-2">
+                <h6 class="title">Support</h6>
+                <ul class="list-menu mb-4">
+                  <li> <a href="#"> Centre d'aide </a></li>
+                  <li> <a href="#"> Documents </a></li>
+                  <li> <a href="#"> Restauration de compte </a></li>
+                  <li> <a href="#"> Mes commandes </a></li>
+                </ul>
+              </aside>
+              <aside class="col-12 col-sm-12 col-lg-3">
+                <h6 class="title">lettre d'information</h6>
+                <p>Restez en contact avec les dernières mises à jour sur nos produits et offres</p>
+        
+                
+                  
+                </form>
+              </aside>
+            </div> <!-- row.// -->
+          </section>  <!-- footer-top.// -->
+        </footer>
+                      
+          <aside class="offcanvas offcanvas-end tabindex=-1" id="offcanvas_cart">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title">Votre panier <span>(3)</span> </h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              
+              <figure class="itemside mb-4">
+                <div class="aside">
+                  <img src="images/items/14.jpg" class="border img-sm rounded">
+                </div>
+                <figcaption class="info">
+                  <a href="#" class="btn btn-icon btn-light float-end"><i class="fa fa-trash"></i></a>
+                  <p> HUAWEI-MateBook AMD Ryzen 7 5800H</p>
+                  <span class="text-muted">1 x $200.95 </span> <br>
+                  <strong class="price"> $400.90 </strong>
+                </figcaption>
+              </figure>
+        
+              <figure class="itemside  mb-4">
+                <div class="aside">
+                  <img src="images/items/2.jpg" class="border img-sm rounded">
+                </div>
+                <figcaption class="info">
+                  <a href="#" class="btn btn-icon btn-light float-end"><i class="fa fa-trash"></i></a>
+                  <p> PCSpecialist Pro PC Gamer </p>
+                  <span class="text-muted">2 x $169.95 </span> <br>
+                  <strong class="price"> $339.90 </strong>
+                </figcaption>
+              </figure>
+        
+              <figure class="itemside  mb-4">
+                <div class="aside">
+                  <img src="images/items/11.jpg" class="border img-sm rounded">
+                </div>
+                <figcaption class="info">
+                  <a href="#" class="btn btn-icon btn-light float-end"><i class="fa fa-trash"></i></a>
+                  <p> Beelink Mini PC GK55 Processeur Intel </p>
+                  <span class="text-muted">2 x $169.95 </span> <br>
+                  <strong class="price"> $339.90 </strong>
+                <!-- </figcaption> -->
+              </figure>
+              <hr>
+             
+              <p class="mb-3 text-center"> Total:  <strong class="text-danger">$893.00</strong>  </p>
+              <div class="mb-3">
+                <a href="#" class="btn w-100 btn-success"> Vérifier </a>
+              </div>
+              <p class="mb-3 text-center"> <img src="images/misc/payments.png" height="22">  </p>
+        
+            </div> <!-- offcanvas-body -->
+        </aside> <!-- offcanvas -->
+    </body>
+    </html>

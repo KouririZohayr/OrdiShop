@@ -180,3 +180,10 @@ footer a:hover{
     color: rgb(0, 0, 0); 
     margin-top: 5px;
 }
+.rating-stars{
+    list-style-type: none;
+    margin-left:-5% ;
+}
+.rating-wrap{
+    display: inline;
+}
