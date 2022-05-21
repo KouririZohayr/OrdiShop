@@ -25,3 +25,9 @@ var collapseElementList = [].slice.call(document.querySelectorAll('.collapse'))
 var collapseList = collapseElementList.map(function (collapseEl) {
   return new bootstrap.Collapse(collapseEl)
 })
+
+function changePhoto(p){
+    let lienimg=p.src;
+    let grandimg=document.getElementById("grandimg");
+    grandimg.setAttribute("src",lienimg);
+}

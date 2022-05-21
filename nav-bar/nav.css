@@ -187,3 +187,6 @@ footer a:hover{
 .rating-wrap{
     display: inline;
 }
+div{
+    display: block;
+}
